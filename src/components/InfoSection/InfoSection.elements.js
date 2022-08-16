@@ -79,4 +79,8 @@ max-height: 500px;
       transform: none;
     }
   }
+
+  @media screen and (max-width: 560px) {
+    max-width:300px;
+  }
 `;
