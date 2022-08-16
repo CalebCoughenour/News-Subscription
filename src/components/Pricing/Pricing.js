@@ -65,6 +65,7 @@ function Pricing() {
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
+          <Button primary>Find Out More</Button>
         </PricingWrapper>
       </PricingSection>
     </IconContext.Provider>
