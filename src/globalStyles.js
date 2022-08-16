@@ -13,10 +13,10 @@ export const Container = styled.div`
 z-index: 1;
 margin-right: auto;
 margin-left: 50px;
-padding-right: 200px;
-padding-left: 200px;
+padding-right: 180px;
+padding-left: 50px;
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1000px) {
   padding-right: 50px;
   padding-left: 50px;
 }
