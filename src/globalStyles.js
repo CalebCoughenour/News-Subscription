@@ -25,7 +25,7 @@ padding-left: 50px;
 
 export const Button = styled.button`
 border-radius: 4px;
-background: #0467fb;
+background: ${({primary}) => (primary ? '#4b59f7' : '#0467fb')};
 white-space: nowrap;
 padding: 10px 20px;
 color: #fff;
@@ -33,6 +33,7 @@ font-size: 16px;
 outline: none;
 border: none;
 cursor: pointer;
+
 
 @media screen and (max-width: 960px) {
   width: 100%;
