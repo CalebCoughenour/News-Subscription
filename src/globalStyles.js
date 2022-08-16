@@ -13,8 +13,8 @@ export const Container = styled.div`
 z-index: 1;
 margin-right: auto;
 margin-left: 50px;
-padding-right: 50px;
-padding-left: 50px;
+padding-right: 200px;
+padding-left: 200px;
 
 @media screen and (max-width: 991px) {
   padding-right: 50px;
