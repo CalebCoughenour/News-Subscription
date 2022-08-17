@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function Slider() {
   return (
     <Carousel>
-      <Carousel.Item interval={1700}>
+      <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
           src="https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
@@ -14,7 +14,7 @@ function Slider() {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={1700}>
+      <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
           src="https://images.unsplash.com/photo-1560177112-fbfd5fde9566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -25,7 +25,7 @@ function Slider() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={1700}>
+      <Carousel.Item interval={2000}>
         <img
           className="d-block w-100 "
           src="https://images.unsplash.com/photo-1573812195421-50a396d17893?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80"
