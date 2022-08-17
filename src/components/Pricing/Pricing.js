@@ -65,7 +65,7 @@ function Pricing() {
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
-          <Button primary>Find Out More</Button>
+          <Button primary style={{ marginTop: '10px' }}>Find Out More</Button>
         </PricingWrapper>
       </PricingSection>
     </IconContext.Provider>
