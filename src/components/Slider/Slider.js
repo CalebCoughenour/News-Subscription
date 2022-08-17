@@ -36,14 +36,14 @@ function Slider() {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={2000}>
+          <Carousel.Item>
             {/* <img
               className="d-block w-100 "
               src="https://images.unsplash.com/photo-1560177112-fbfd5fde9566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="Three newspapers hanging on a brick wall"
             /> */}
-            
-            <CarouselVideo />
+
+            <CarouselVideo className="d-block w-100" />
             
             <Carousel.Caption>
               <h3>Third slide label</h3>
