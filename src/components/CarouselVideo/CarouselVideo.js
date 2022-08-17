@@ -6,7 +6,7 @@ const src =
 const CarouselVideo = () => {
   return (
     
-      <video loop muted autoPlay width="100%" style={{ height: "600px", objectFit: "cover", marginBottom: "0px"}}>
+      <video loop muted autoPlay width="100%" style={{ height: "800px", objectFit: "cover", marginBottom: "0px"}}>
         <source src={src} type="video/mp4" />
         Sorry, your browser doesn't support embedded videos.
       </video>

@@ -18,7 +18,7 @@ function Slider() {
                 
                 src="https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?cs=srgb&dl=pexels-pixabay-158651.jpg&fm=jpg"
                 alt="Small stack of newspapers in a non-English language"
-                style={{ height: "600px" }}
+                style={{ height: "800px" }}
               />
               <Carousel.Caption style={{ 
                 color: 'black',
@@ -39,7 +39,7 @@ function Slider() {
                 className="d-block w-100"
                 src="https://images.unsplash.com/photo-1560177112-fbfd5fde9566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt="Three newspapers hanging on a brick wall"
-                style={{ height: "600px" }}
+                style={{ height: "800px" }}
               />
               <Carousel.Caption style={{ 
                 color: 'black',
@@ -53,7 +53,7 @@ function Slider() {
                 <p style={{ fontWeight: 'bolder'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item style={{ height: '600px'}}>
+          <Carousel.Item style={{ height: '800px'}}>
               {/* Can switch out video with image */}
               {/* <img
                 className="d-block w-100 "
